@@ -13,6 +13,17 @@ int sum() {
     return a+b;
 }
 
+// A function with argument and no return value
+void add(int a, int b) {
+    int summation = a + b;
+}
+
+// A function with argument and return value
+int mul(int a, int b) {
+    int result = a * b;
+    return result;
+}
+
 // Main function for calling the user-defined functions
 void main() {
     int result;
